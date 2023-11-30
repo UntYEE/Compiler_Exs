@@ -1,0 +1,80 @@
+int 'int'	 [StartOfLine]	Loc=<test_f_cleaned.cpp:1:1>
+identifier 'main'	 [LeadingSpace]	Loc=<test_f_cleaned.cpp:1:5>
+l_paren '('		Loc=<test_f_cleaned.cpp:1:9>
+r_paren ')'		Loc=<test_f_cleaned.cpp:1:10>
+l_brace '{'	 [StartOfLine] [LeadingSpace]	Loc=<test_f_cleaned.cpp:2:2>
+int 'int'	 [StartOfLine] [LeadingSpace]	Loc=<test_f_cleaned.cpp:3:2>
+identifier 'a'	 [LeadingSpace]	Loc=<test_f_cleaned.cpp:3:6>
+comma ','		Loc=<test_f_cleaned.cpp:3:7>
+identifier 'b'	 [LeadingSpace]	Loc=<test_f_cleaned.cpp:3:9>
+comma ','		Loc=<test_f_cleaned.cpp:3:10>
+identifier 'i'	 [LeadingSpace]	Loc=<test_f_cleaned.cpp:3:12>
+comma ','		Loc=<test_f_cleaned.cpp:3:13>
+identifier 't'	 [LeadingSpace]	Loc=<test_f_cleaned.cpp:3:15>
+comma ','		Loc=<test_f_cleaned.cpp:3:16>
+identifier 'n'	 [LeadingSpace]	Loc=<test_f_cleaned.cpp:3:18>
+semi ';'		Loc=<test_f_cleaned.cpp:3:19>
+identifier 'a'	 [StartOfLine] [LeadingSpace]	Loc=<test_f_cleaned.cpp:5:2>
+equal '='	 [LeadingSpace]	Loc=<test_f_cleaned.cpp:5:4>
+numeric_constant '0'	 [LeadingSpace]	Loc=<test_f_cleaned.cpp:5:6>
+semi ';'		Loc=<test_f_cleaned.cpp:5:7>
+identifier 'b'	 [StartOfLine] [LeadingSpace]	Loc=<test_f_cleaned.cpp:6:2>
+equal '='	 [LeadingSpace]	Loc=<test_f_cleaned.cpp:6:4>
+numeric_constant '1'	 [LeadingSpace]	Loc=<test_f_cleaned.cpp:6:6>
+semi ';'		Loc=<test_f_cleaned.cpp:6:7>
+identifier 'i'	 [StartOfLine] [LeadingSpace]	Loc=<test_f_cleaned.cpp:7:2>
+equal '='	 [LeadingSpace]	Loc=<test_f_cleaned.cpp:7:4>
+numeric_constant '1'	 [LeadingSpace]	Loc=<test_f_cleaned.cpp:7:6>
+semi ';'		Loc=<test_f_cleaned.cpp:7:7>
+identifier 'cin'	 [StartOfLine] [LeadingSpace]	Loc=<test_f_cleaned.cpp:8:2>
+greatergreater '>>'	 [LeadingSpace]	Loc=<test_f_cleaned.cpp:8:6>
+identifier 'n'	 [LeadingSpace]	Loc=<test_f_cleaned.cpp:8:9>
+semi ';'		Loc=<test_f_cleaned.cpp:8:10>
+identifier 'cout'	 [StartOfLine] [LeadingSpace]	Loc=<test_f_cleaned.cpp:9:2>
+lessless '<<'	 [LeadingSpace]	Loc=<test_f_cleaned.cpp:9:7>
+identifier 'a'	 [LeadingSpace]	Loc=<test_f_cleaned.cpp:9:10>
+lessless '<<'	 [LeadingSpace]	Loc=<test_f_cleaned.cpp:9:12>
+identifier 'endl'	 [LeadingSpace]	Loc=<test_f_cleaned.cpp:9:15>
+semi ';'		Loc=<test_f_cleaned.cpp:9:19>
+identifier 'cout'	 [StartOfLine] [LeadingSpace]	Loc=<test_f_cleaned.cpp:10:2>
+lessless '<<'	 [LeadingSpace]	Loc=<test_f_cleaned.cpp:10:7>
+identifier 'b'	 [LeadingSpace]	Loc=<test_f_cleaned.cpp:10:10>
+lessless '<<'	 [LeadingSpace]	Loc=<test_f_cleaned.cpp:10:12>
+identifier 'endl'	 [LeadingSpace]	Loc=<test_f_cleaned.cpp:10:15>
+semi ';'		Loc=<test_f_cleaned.cpp:10:19>
+while 'while'	 [StartOfLine] [LeadingSpace]	Loc=<test_f_cleaned.cpp:11:2>
+l_paren '('	 [LeadingSpace]	Loc=<test_f_cleaned.cpp:11:8>
+identifier 'i'		Loc=<test_f_cleaned.cpp:11:9>
+less '<'	 [LeadingSpace]	Loc=<test_f_cleaned.cpp:11:11>
+identifier 'n'	 [LeadingSpace]	Loc=<test_f_cleaned.cpp:11:13>
+r_paren ')'		Loc=<test_f_cleaned.cpp:11:14>
+l_brace '{'	 [StartOfLine] [LeadingSpace]	Loc=<test_f_cleaned.cpp:12:2>
+identifier 't'	 [StartOfLine] [LeadingSpace]	Loc=<test_f_cleaned.cpp:13:2>
+equal '='	 [LeadingSpace]	Loc=<test_f_cleaned.cpp:13:4>
+identifier 'b'	 [LeadingSpace]	Loc=<test_f_cleaned.cpp:13:6>
+semi ';'		Loc=<test_f_cleaned.cpp:13:7>
+identifier 'b'	 [StartOfLine] [LeadingSpace]	Loc=<test_f_cleaned.cpp:14:2>
+equal '='	 [LeadingSpace]	Loc=<test_f_cleaned.cpp:14:4>
+identifier 'a'	 [LeadingSpace]	Loc=<test_f_cleaned.cpp:14:6>
+plus '+'	 [LeadingSpace]	Loc=<test_f_cleaned.cpp:14:8>
+identifier 'b'	 [LeadingSpace]	Loc=<test_f_cleaned.cpp:14:10>
+semi ';'		Loc=<test_f_cleaned.cpp:14:11>
+identifier 'cout'	 [StartOfLine] [LeadingSpace]	Loc=<test_f_cleaned.cpp:15:2>
+lessless '<<'	 [LeadingSpace]	Loc=<test_f_cleaned.cpp:15:7>
+identifier 'b'	 [LeadingSpace]	Loc=<test_f_cleaned.cpp:15:10>
+lessless '<<'	 [LeadingSpace]	Loc=<test_f_cleaned.cpp:15:12>
+identifier 'endl'	 [LeadingSpace]	Loc=<test_f_cleaned.cpp:15:15>
+semi ';'		Loc=<test_f_cleaned.cpp:15:19>
+identifier 'a'	 [StartOfLine] [LeadingSpace]	Loc=<test_f_cleaned.cpp:16:2>
+equal '='	 [LeadingSpace]	Loc=<test_f_cleaned.cpp:16:4>
+identifier 't'	 [LeadingSpace]	Loc=<test_f_cleaned.cpp:16:6>
+semi ';'		Loc=<test_f_cleaned.cpp:16:7>
+identifier 'i'	 [StartOfLine] [LeadingSpace]	Loc=<test_f_cleaned.cpp:17:2>
+equal '='	 [LeadingSpace]	Loc=<test_f_cleaned.cpp:17:4>
+identifier 'i'	 [LeadingSpace]	Loc=<test_f_cleaned.cpp:17:6>
+plus '+'	 [LeadingSpace]	Loc=<test_f_cleaned.cpp:17:8>
+numeric_constant '1'	 [LeadingSpace]	Loc=<test_f_cleaned.cpp:17:10>
+semi ';'		Loc=<test_f_cleaned.cpp:17:11>
+r_brace '}'	 [StartOfLine] [LeadingSpace]	Loc=<test_f_cleaned.cpp:18:2>
+r_brace '}'	 [StartOfLine] [LeadingSpace]	Loc=<test_f_cleaned.cpp:19:2>
+eof ''		Loc=<test_f_cleaned.cpp:19:3>

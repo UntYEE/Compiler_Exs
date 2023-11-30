@@ -1,0 +1,57 @@
+test_cleaned.cpp:4:2: error: use of undeclared identifier 'cin'
+ cin >> n;
+ ^
+test_cleaned.cpp:12:2: error: use of undeclared identifier 'cout'
+ cout << f << endl;
+ ^
+test_cleaned.cpp:12:15: error: use of undeclared identifier 'endl'
+ cout << f << endl;
+              ^
+3 errors generated.
+TranslationUnitDecl 0x1375f78 <<invalid sloc>> <invalid sloc>
+|-TypedefDecl 0x13767e0 <<invalid sloc>> <invalid sloc> implicit __int128_t '__int128'
+| `-BuiltinType 0x1376540 '__int128'
+|-TypedefDecl 0x1376850 <<invalid sloc>> <invalid sloc> implicit __uint128_t 'unsigned __int128'
+| `-BuiltinType 0x1376560 'unsigned __int128'
+|-TypedefDecl 0x1376bc8 <<invalid sloc>> <invalid sloc> implicit __NSConstantString '__NSConstantString_tag'
+| `-RecordType 0x1376940 '__NSConstantString_tag'
+|   `-CXXRecord 0x13768a8 '__NSConstantString_tag'
+|-TypedefDecl 0x1376c60 <<invalid sloc>> <invalid sloc> implicit __builtin_ms_va_list 'char *'
+| `-PointerType 0x1376c20 'char *'
+|   `-BuiltinType 0x1376020 'char'
+|-TypedefDecl 0x13bb518 <<invalid sloc>> <invalid sloc> implicit __builtin_va_list '__va_list_tag[1]'
+| `-ConstantArrayType 0x13bb4c0 '__va_list_tag[1]' 1 
+|   `-RecordType 0x1376d50 '__va_list_tag'
+|     `-CXXRecord 0x1376cb8 '__va_list_tag'
+`-FunctionDecl 0x13bb5c0 <test_cleaned.cpp:1:1, line:13:2> line:1:5 main 'int ()'
+  `-CompoundStmt 0x13bbc40 <line:2:2, line:13:2>
+    |-DeclStmt 0x13bb870 <line:3:2, col:13>
+    | |-VarDecl 0x13bb6e8 <col:2, col:6> col:6 used i 'int'
+    | |-VarDecl 0x13bb768 <col:2, col:9> col:9 used n 'int'
+    | `-VarDecl 0x13bb7e8 <col:2, col:12> col:12 used f 'int'
+    |-BinaryOperator 0x13bb930 <line:5:2, col:6> 'int' lvalue '='
+    | |-DeclRefExpr 0x13bb8f0 <col:2> 'int' lvalue Var 0x13bb6e8 'i' 'int'
+    | `-IntegerLiteral 0x13bb910 <col:6> 'int' 2
+    |-BinaryOperator 0x13bb990 <line:6:2, col:6> 'int' lvalue '='
+    | |-DeclRefExpr 0x13bb950 <col:2> 'int' lvalue Var 0x13bb7e8 'f' 'int'
+    | `-IntegerLiteral 0x13bb970 <col:6> 'int' 1
+    `-WhileStmt 0x13bbbe8 <line:7:2, line:11:2>
+      |-BinaryOperator 0x13bba20 <line:7:9, col:14> 'bool' '<='
+      | |-ImplicitCastExpr 0x13bb9f0 <col:9> 'int' <LValueToRValue>
+      | | `-DeclRefExpr 0x13bb9b0 <col:9> 'int' lvalue Var 0x13bb6e8 'i' 'int'
+      | `-ImplicitCastExpr 0x13bba08 <col:14> 'int' <LValueToRValue>
+      |   `-DeclRefExpr 0x13bb9d0 <col:14> 'int' lvalue Var 0x13bb768 'n' 'int'
+      `-CompoundStmt 0x13bbbc8 <line:8:2, line:11:2>
+        |-BinaryOperator 0x13bbaf0 <line:9:2, col:10> 'int' lvalue '='
+        | |-DeclRefExpr 0x13bba40 <col:2> 'int' lvalue Var 0x13bb7e8 'f' 'int'
+        | `-BinaryOperator 0x13bbad0 <col:6, col:10> 'int' '*'
+        |   |-ImplicitCastExpr 0x13bbaa0 <col:6> 'int' <LValueToRValue>
+        |   | `-DeclRefExpr 0x13bba60 <col:6> 'int' lvalue Var 0x13bb7e8 'f' 'int'
+        |   `-ImplicitCastExpr 0x13bbab8 <col:10> 'int' <LValueToRValue>
+        |     `-DeclRefExpr 0x13bba80 <col:10> 'int' lvalue Var 0x13bb6e8 'i' 'int'
+        `-BinaryOperator 0x13bbba8 <line:10:2, col:10> 'int' lvalue '='
+          |-DeclRefExpr 0x13bbb10 <col:2> 'int' lvalue Var 0x13bb6e8 'i' 'int'
+          `-BinaryOperator 0x13bbb88 <col:6, col:10> 'int' '+'
+            |-ImplicitCastExpr 0x13bbb70 <col:6> 'int' <LValueToRValue>
+            | `-DeclRefExpr 0x13bbb30 <col:6> 'int' lvalue Var 0x13bb6e8 'i' 'int'
+            `-IntegerLiteral 0x13bbb50 <col:10> 'int' 1
